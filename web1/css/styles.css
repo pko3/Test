@@ -90,27 +90,9 @@ ul {
 }
 
 li {
-    display: block;
     border-top: 1px solid #c0c0c0;
-    padding: 10px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    background-color: #fff;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-li {
+    padding: 0px;
     display: block;
-    border-top: 1px solid #e0e0e0;
-    padding: 10px;
-}
-
-li {
-    padding: 0;
     display: -webkit-box;
     display: -moz-box;
     display: box;
@@ -140,6 +122,11 @@ li>a {
 
 li>a * {
     pointer-events: none;
+}
+
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
 }
 
 .button {
@@ -179,6 +166,13 @@ h2 {
     font-weight: normal;
     padding: 0px;
     margin: 0px;
+}
+
+.employee-image {
+    float:left;
+    margin:10px;
+    width:100px;
+    height:100px;
 }
 
 .scroll {

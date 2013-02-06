@@ -57,7 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="config.xml" />
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="css\source-sans-pro.js" />
     <Content Include="css\styles.css" />
     <Content Include="img\Andy_Bernard.jpg" />
