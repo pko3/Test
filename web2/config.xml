@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "sk.webase.geolocation"
+        versionCode = "10"
+        version     = "1.0.0">
+ 
+    <name>Geolocation</name>
+ 
+    <description>
+      Test geolocation application
+    </description>
+ 
+    <author href="http://webase.sk" email="pko@dflexnr.sk">
+        Peter Kotry
+    </author>
+ 
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+</widget>
